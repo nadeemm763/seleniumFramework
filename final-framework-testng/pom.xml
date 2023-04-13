@@ -4,33 +4,33 @@
 	<groupId>com.selenium.automation.elearning.framework.testng</groupId>
 	<artifactId>Selenium-Automation-Elearning-Framework-TestNG</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-
-
 	<dependencies>
+		<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+<dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>5.3.2</version>
+</dependency>
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>3.6.0</version>
-
+			<version>3.141.59</version>
 		</dependency>
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<version>5.1.38</version>
 		</dependency>
-
 		<dependency>
 			<groupId>commons-io</groupId>
 			<artifactId>commons-io</artifactId>
 			<version>2.4</version>
 		</dependency>
-
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi</artifactId>
 			<version>3.9</version>
 		</dependency>
-
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi-ooxml</artifactId>
@@ -48,12 +48,7 @@
 			<artifactId>jxl</artifactId>
 			<version>2.4.2</version>
 		</dependency>
-
-
 	</dependencies>
-
-
-
 	<build>
 		<sourceDirectory>src</sourceDirectory>
 		<plugins>
@@ -68,3 +63,9 @@
 		</plugins>
 	</build>
 </project>
+
+
+
+
+
+1
